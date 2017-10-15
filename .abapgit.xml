@@ -13,7 +13,7 @@
     <item>/.travis.yml</item>
    </IGNORE>
    <CALLBACK_CLASSNAME>ZCL_CALLBEX_CALLBACK_LISTENER</CALLBACK_CLASSNAME>
-   <VERSION>0.2.0</VERSION>
+   <VERSION>0.1.0</VERSION>
   </DATA>
  </asx:values>
 </asx:abap>
