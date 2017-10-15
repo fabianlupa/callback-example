@@ -10,7 +10,7 @@ CLASS zcl_callbex_version DEFINITION
 
   PUBLIC SECTION.
     CONSTANTS:
-      "! Version of callback-example in major.minor.revision format
+      "! Version in major.minor.revision format
       gc_version TYPE string VALUE '0.2.1-SNAPSHOT'.
     CLASS-METHODS:
       class_constructor,
