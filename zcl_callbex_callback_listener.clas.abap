@@ -8,7 +8,8 @@ CLASS zcl_callbex_callback_listener DEFINITION
     METHODS:
       on_after_pull IMPORTING iv_package     TYPE devclass
                               iv_old_version TYPE string
-                              iv_new_version TYPE string.
+                              iv_new_version TYPE string,
+      on_after_install.
   PROTECTED SECTION.
   PRIVATE SECTION.
     CLASS-METHODS:
@@ -39,6 +40,14 @@ CLASS zcl_callbex_callback_listener IMPLEMENTATION.
       ENDIF.
     ENDIF.
 
+  ENDMETHOD.
+
+  METHOD on_after_install.
+    CALL FUNCTION 'POPUP_TO_INFORM'
+      EXPORTING
+        titel = 'Installation complete!'
+        txt1  = 'Installation complete!'
+        txt2  = space.
   ENDMETHOD.
 
   METHOD do_the_migration.
