@@ -31,5 +31,3 @@ CLASS lcl_callback_listener IMPLEMENTATION.
         txt2  = 'PLEASE!'.
   ENDMETHOD.
 ENDCLASS.
-
-" Test2
