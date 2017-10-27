@@ -13,7 +13,6 @@
     <item>/.travis.yml</item>
    </IGNORE>
    <CALLBACK_CLASSNAME>\PROGRAM=ZCALLBACKEXAMPLE\CLASS=LCL_CALLBACK_LISTENER</CALLBACK_CLASSNAME>
-   <VERSION>0.2.0</VERSION>
   </DATA>
  </asx:values>
 </asx:abap>
