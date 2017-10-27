@@ -9,8 +9,7 @@ CLASS lcl_callback_listener DEFINITION.
   PUBLIC SECTION.
     METHODS:
       on_after_deserialize IMPORTING iv_package TYPE devclass,
-      on_before_uninstall,
-      test.
+      on_before_uninstall.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -30,8 +29,5 @@ CLASS lcl_callback_listener IMPLEMENTATION.
         titel = sy-title
         txt1  = 'NO LET ME LIVE'
         txt2  = 'PLEASE!'.
-  ENDMETHOD.
-
-  METHOD test.
   ENDMETHOD.
 ENDCLASS.
