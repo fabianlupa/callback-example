@@ -35,5 +35,9 @@ CLASS lcl_callback_listener IMPLEMENTATION.
 
   METHOD test.
   ENDMETHOD.
+  
+  METHOD new.
+    BREAK-POINT.
+  ENDMETHOD.
 ENDCLASS.
 "
