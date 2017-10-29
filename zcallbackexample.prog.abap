@@ -10,7 +10,8 @@ CLASS lcl_callback_listener DEFINITION.
     METHODS:
       on_after_deserialize IMPORTING iv_package TYPE devclass,
       on_before_uninstall,
-      test.
+      test,
+      new.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
